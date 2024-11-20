@@ -1,0 +1,120 @@
+*{
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#pedaco_um{ 
+    background-color: #303030;
+    padding: 100px;
+    
+    
+
+}
+
+#titulo_um{
+    color: #FFFFFF;
+    margin-top: 5%;
+    font-size: 40px;
+    text-align: left;
+}
+#titulo_dois{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+
+
+#pedaco_dois{
+    background-color: #F9F9F9;
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-items: center;
+}
+.numeros{
+    width: 200px;
+}
+
+
+
+#pedaco_tres{
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#ibagem{
+    width: 410px; 
+}
+
+#tt_sala{
+    font-size: 37px;
+    
+}
+
+#txt_sala{
+    font-size: 20px;
+    padding-top: 30px;
+ 
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#ttcentral{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+#nome{
+    margin-top: 35px;
+}
+
+#email{
+   
+    margin-bottom: 45px;
+}
+input{
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+#butaum{
+    cursor: pointer;
+    background-color: #c77919;
+    color: #F9F9F9;
+    margin-bottom: 40px;
+}
+
+button{
+  
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bolder;
+}
+
+button:hover{
+    color: #000000 !important;
+    background-color: #f19728 !important;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #7a5a32; 
+    
+}
